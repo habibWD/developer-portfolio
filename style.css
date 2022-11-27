@@ -35,3 +35,16 @@ h1{
     text-transform: uppercase;
     border-radius: 5px;
 }
+.dream-area{
+    display: flex;
+    margin-top: 40px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area img{
+    width: 75%;
+}
+.dream-area p{
+    margin-bottom: 60px;
+}
