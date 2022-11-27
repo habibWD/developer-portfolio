@@ -48,3 +48,37 @@ h1{
 .dream-area p{
     margin-bottom: 60px;
 }
+.experiance-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.flexiable-container{
+    display: flex;
+}
+.experiance-item1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+}
+.experiance-item2{
+    width: 40%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
